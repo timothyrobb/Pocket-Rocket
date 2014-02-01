@@ -1,18 +1,18 @@
 //
 //  ViewController.m
-//  TileGame
+//  PocketRocket
 //
 //  Created by Timothy Robb on 01/02/2014.
 //  Copyright (c) 2014 InvaderTim. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PocketRocketStartViewController.h"
 
-@interface ViewController ()
+@interface PocketRocketStartViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PocketRocketStartViewController
 
 - (void)viewDidLoad
 {

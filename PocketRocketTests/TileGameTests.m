@@ -1,6 +1,6 @@
 //
-//  TileGameTests.m
-//  TileGameTests
+//  PocketRocketTests.m
+//  PocketRocketTests
 //
 //  Created by Timothy Robb on 01/02/2014.
 //  Copyright (c) 2014 InvaderTim. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TileGameTests : XCTestCase
+@interface PocketRocketTests : XCTestCase
 
 @end
 
-@implementation TileGameTests
+@implementation PocketRocketTests
 
 - (void)setUp
 {

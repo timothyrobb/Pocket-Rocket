@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900E34F1189D2A3700A943B8 /* PocketRocketBoardColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E34F0189D2A3700A943B8 /* PocketRocketBoardColumn.m */; };
 		906BEB71189C8394002D27DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB70189C8394002D27DA /* Foundation.framework */; };
 		906BEB73189C8394002D27DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB72189C8394002D27DA /* CoreGraphics.framework */; };
 		906BEB75189C8394002D27DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB74189C8394002D27DA /* UIKit.framework */; };
@@ -14,45 +15,37 @@
 		906BEB7D189C8394002D27DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEB7C189C8394002D27DA /* main.m */; };
 		906BEB81189C8394002D27DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEB80189C8394002D27DA /* AppDelegate.m */; };
 		906BEB84189C8394002D27DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906BEB82189C8394002D27DA /* Main.storyboard */; };
-		906BEB87189C8394002D27DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEB86189C8394002D27DA /* ViewController.m */; };
+		906BEB87189C8394002D27DA /* PocketRocketStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEB86189C8394002D27DA /* PocketRocketStartViewController.m */; };
 		906BEB89189C8394002D27DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906BEB88189C8394002D27DA /* Images.xcassets */; };
-		906BEB90189C8394002D27DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB8F189C8394002D27DA /* XCTest.framework */; };
-		906BEB91189C8394002D27DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB70189C8394002D27DA /* Foundation.framework */; };
-		906BEB92189C8394002D27DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BEB74189C8394002D27DA /* UIKit.framework */; };
-		906BEB9A189C8394002D27DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906BEB98189C8394002D27DA /* InfoPlist.strings */; };
-		906BEB9C189C8394002D27DA /* TileGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEB9B189C8394002D27DA /* TileGameTests.m */; };
+		906BEBA7189C87F5002D27DA /* PocketRocketMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEBA6189C87F5002D27DA /* PocketRocketMainViewController.m */; };
+		906BEBAE189CA465002D27DA /* PocketRocketBoardTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEBAD189CA465002D27DA /* PocketRocketBoardTile.m */; };
+		906BEBB1189CB203002D27DA /* PocketRocketBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 906BEBB0189CB203002D27DA /* PocketRocketBoard.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		906BEB93189C8394002D27DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 906BEB65189C8394002D27DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 906BEB6C189C8394002D27DA;
-			remoteInfo = TileGame;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		906BEB6D189C8394002D27DA /* TileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900E34EF189D2A3700A943B8 /* PocketRocketBoardColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketRocketBoardColumn.h; sourceTree = "<group>"; };
+		900E34F0189D2A3700A943B8 /* PocketRocketBoardColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketRocketBoardColumn.m; sourceTree = "<group>"; };
+		906BEB6D189C8394002D27DA /* Rocket!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		906BEB70189C8394002D27DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		906BEB72189C8394002D27DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		906BEB74189C8394002D27DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		906BEB78189C8394002D27DA /* TileGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileGame-Info.plist"; sourceTree = "<group>"; };
+		906BEB78189C8394002D27DA /* Pocket Rocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Rocket-Info.plist"; sourceTree = "<group>"; };
 		906BEB7A189C8394002D27DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		906BEB7C189C8394002D27DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		906BEB7E189C8394002D27DA /* TileGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TileGame-Prefix.pch"; sourceTree = "<group>"; };
+		906BEB7E189C8394002D27DA /* Pocket Rocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Rocket-Prefix.pch"; sourceTree = "<group>"; };
 		906BEB7F189C8394002D27DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		906BEB80189C8394002D27DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		906BEB83189C8394002D27DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		906BEB85189C8394002D27DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		906BEB86189C8394002D27DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		906BEB85189C8394002D27DA /* PocketRocketStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketRocketStartViewController.h; sourceTree = "<group>"; };
+		906BEB86189C8394002D27DA /* PocketRocketStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketRocketStartViewController.m; sourceTree = "<group>"; };
 		906BEB88189C8394002D27DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		906BEB8E189C8394002D27DA /* TileGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TileGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906BEB8F189C8394002D27DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		906BEB97189C8394002D27DA /* TileGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileGameTests-Info.plist"; sourceTree = "<group>"; };
-		906BEB99189C8394002D27DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		906BEB9B189C8394002D27DA /* TileGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileGameTests.m; sourceTree = "<group>"; };
+		906BEBA5189C87F5002D27DA /* PocketRocketMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketRocketMainViewController.h; sourceTree = "<group>"; };
+		906BEBA6189C87F5002D27DA /* PocketRocketMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketRocketMainViewController.m; sourceTree = "<group>"; };
+		906BEBAC189CA465002D27DA /* PocketRocketBoardTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketRocketBoardTile.h; sourceTree = "<group>"; };
+		906BEBAD189CA465002D27DA /* PocketRocketBoardTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketRocketBoardTile.m; sourceTree = "<group>"; };
+		906BEBAF189CB203002D27DA /* PocketRocketBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketRocketBoard.h; sourceTree = "<group>"; };
+		906BEBB0189CB203002D27DA /* PocketRocketBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketRocketBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		906BEB8B189C8394002D27DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				906BEB90189C8394002D27DA /* XCTest.framework in Frameworks */,
-				906BEB92189C8394002D27DA /* UIKit.framework in Frameworks */,
-				906BEB91189C8394002D27DA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		906BEB64189C8394002D27DA = {
 			isa = PBXGroup;
 			children = (
-				906BEB76189C8394002D27DA /* TileGame */,
-				906BEB95189C8394002D27DA /* TileGameTests */,
+				906BEB76189C8394002D27DA /* PocketRocket */,
 				906BEB6F189C8394002D27DA /* Frameworks */,
 				906BEB6E189C8394002D27DA /* Products */,
 			);
@@ -92,8 +74,7 @@
 		906BEB6E189C8394002D27DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				906BEB6D189C8394002D27DA /* TileGame.app */,
-				906BEB8E189C8394002D27DA /* TileGameTests.xctest */,
+				906BEB6D189C8394002D27DA /* Rocket!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,45 +90,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		906BEB76189C8394002D27DA /* TileGame */ = {
+		906BEB76189C8394002D27DA /* PocketRocket */ = {
 			isa = PBXGroup;
 			children = (
 				906BEB7F189C8394002D27DA /* AppDelegate.h */,
 				906BEB80189C8394002D27DA /* AppDelegate.m */,
 				906BEB82189C8394002D27DA /* Main.storyboard */,
-				906BEB85189C8394002D27DA /* ViewController.h */,
-				906BEB86189C8394002D27DA /* ViewController.m */,
+				906BEB85189C8394002D27DA /* PocketRocketStartViewController.h */,
+				906BEB86189C8394002D27DA /* PocketRocketStartViewController.m */,
+				906BEBA5189C87F5002D27DA /* PocketRocketMainViewController.h */,
+				906BEBA6189C87F5002D27DA /* PocketRocketMainViewController.m */,
+				906BEBAF189CB203002D27DA /* PocketRocketBoard.h */,
+				906BEBB0189CB203002D27DA /* PocketRocketBoard.m */,
+				900E34EF189D2A3700A943B8 /* PocketRocketBoardColumn.h */,
+				900E34F0189D2A3700A943B8 /* PocketRocketBoardColumn.m */,
+				906BEBAC189CA465002D27DA /* PocketRocketBoardTile.h */,
+				906BEBAD189CA465002D27DA /* PocketRocketBoardTile.m */,
 				906BEB88189C8394002D27DA /* Images.xcassets */,
 				906BEB77189C8394002D27DA /* Supporting Files */,
 			);
-			path = TileGame;
+			path = PocketRocket;
 			sourceTree = "<group>";
 		};
 		906BEB77189C8394002D27DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				906BEB78189C8394002D27DA /* TileGame-Info.plist */,
+				906BEB78189C8394002D27DA /* Pocket Rocket-Info.plist */,
 				906BEB79189C8394002D27DA /* InfoPlist.strings */,
 				906BEB7C189C8394002D27DA /* main.m */,
-				906BEB7E189C8394002D27DA /* TileGame-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		906BEB95189C8394002D27DA /* TileGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				906BEB9B189C8394002D27DA /* TileGameTests.m */,
-				906BEB96189C8394002D27DA /* Supporting Files */,
-			);
-			path = TileGameTests;
-			sourceTree = "<group>";
-		};
-		906BEB96189C8394002D27DA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				906BEB97189C8394002D27DA /* TileGameTests-Info.plist */,
-				906BEB98189C8394002D27DA /* InfoPlist.strings */,
+				906BEB7E189C8394002D27DA /* Pocket Rocket-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		906BEB6C189C8394002D27DA /* TileGame */ = {
+		906BEB6C189C8394002D27DA /* Pocket Rocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 906BEB9F189C8394002D27DA /* Build configuration list for PBXNativeTarget "TileGame" */;
+			buildConfigurationList = 906BEB9F189C8394002D27DA /* Build configuration list for PBXNativeTarget "Pocket Rocket" */;
 			buildPhases = (
 				906BEB69189C8394002D27DA /* Sources */,
 				906BEB6A189C8394002D27DA /* Frameworks */,
@@ -167,28 +138,10 @@
 			);
 			dependencies = (
 			);
-			name = TileGame;
+			name = "Pocket Rocket";
 			productName = TileGame;
-			productReference = 906BEB6D189C8394002D27DA /* TileGame.app */;
+			productReference = 906BEB6D189C8394002D27DA /* Rocket!.app */;
 			productType = "com.apple.product-type.application";
-		};
-		906BEB8D189C8394002D27DA /* TileGameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 906BEBA2189C8394002D27DA /* Build configuration list for PBXNativeTarget "TileGameTests" */;
-			buildPhases = (
-				906BEB8A189C8394002D27DA /* Sources */,
-				906BEB8B189C8394002D27DA /* Frameworks */,
-				906BEB8C189C8394002D27DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				906BEB94189C8394002D27DA /* PBXTargetDependency */,
-			);
-			name = TileGameTests;
-			productName = TileGameTests;
-			productReference = 906BEB8E189C8394002D27DA /* TileGameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,13 +151,8 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = InvaderTim;
-				TargetAttributes = {
-					906BEB8D189C8394002D27DA = {
-						TestTargetID = 906BEB6C189C8394002D27DA;
-					};
-				};
 			};
-			buildConfigurationList = 906BEB68189C8394002D27DA /* Build configuration list for PBXProject "TileGame" */;
+			buildConfigurationList = 906BEB68189C8394002D27DA /* Build configuration list for PBXProject "Pocket Rocket" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				906BEB6C189C8394002D27DA /* TileGame */,
-				906BEB8D189C8394002D27DA /* TileGameTests */,
+				906BEB6C189C8394002D27DA /* Pocket Rocket */,
 			);
 		};
 /* End PBXProject section */
@@ -234,14 +181,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		906BEB8C189C8394002D27DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				906BEB9A189C8394002D27DA /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,29 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906BEB87189C8394002D27DA /* ViewController.m in Sources */,
+				906BEB87189C8394002D27DA /* PocketRocketStartViewController.m in Sources */,
+				900E34F1189D2A3700A943B8 /* PocketRocketBoardColumn.m in Sources */,
+				906BEBB1189CB203002D27DA /* PocketRocketBoard.m in Sources */,
 				906BEB81189C8394002D27DA /* AppDelegate.m in Sources */,
 				906BEB7D189C8394002D27DA /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		906BEB8A189C8394002D27DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				906BEB9C189C8394002D27DA /* TileGameTests.m in Sources */,
+				906BEBAE189CA465002D27DA /* PocketRocketBoardTile.m in Sources */,
+				906BEBA7189C87F5002D27DA /* PocketRocketMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		906BEB94189C8394002D27DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 906BEB6C189C8394002D27DA /* TileGame */;
-			targetProxy = 906BEB93189C8394002D27DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		906BEB79189C8394002D27DA /* InfoPlist.strings */ = {
@@ -288,14 +215,6 @@
 				906BEB83189C8394002D27DA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		906BEB98189C8394002D27DA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				906BEB99189C8394002D27DA /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,9 +298,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TileGame/TileGame-Prefix.pch";
-				INFOPLIST_FILE = "TileGame/TileGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PocketRocket/Pocket Rocket-Prefix.pch";
+				INFOPLIST_FILE = "PocketRocket/Pocket Rocket-Info.plist";
+				PRODUCT_NAME = "Rocket!";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,59 +311,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TileGame/TileGame-Prefix.pch";
-				INFOPLIST_FILE = "TileGame/TileGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PocketRocket/Pocket Rocket-Prefix.pch";
+				INFOPLIST_FILE = "PocketRocket/Pocket Rocket-Info.plist";
+				PRODUCT_NAME = "Rocket!";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		906BEBA3189C8394002D27DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TileGame.app/TileGame";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TileGame/TileGame-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TileGameTests/TileGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		906BEBA4189C8394002D27DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TileGame.app/TileGame";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TileGame/TileGame-Prefix.pch";
-				INFOPLIST_FILE = "TileGameTests/TileGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		906BEB68189C8394002D27DA /* Build configuration list for PBXProject "TileGame" */ = {
+		906BEB68189C8394002D27DA /* Build configuration list for PBXProject "Pocket Rocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				906BEB9D189C8394002D27DA /* Debug */,
@@ -453,21 +330,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		906BEB9F189C8394002D27DA /* Build configuration list for PBXNativeTarget "TileGame" */ = {
+		906BEB9F189C8394002D27DA /* Build configuration list for PBXNativeTarget "Pocket Rocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				906BEBA0189C8394002D27DA /* Debug */,
 				906BEBA1189C8394002D27DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		906BEBA2189C8394002D27DA /* Build configuration list for PBXNativeTarget "TileGameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				906BEBA3189C8394002D27DA /* Debug */,
-				906BEBA4189C8394002D27DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
